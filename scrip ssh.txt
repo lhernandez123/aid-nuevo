@@ -1,0 +1,7 @@
+#! /bin/bash 
+fecha=`date +%F` #fecha actual
+#creamos carpeta 
+mkdir -p nuevo
+touch nuevo/archivo
+echo "$fecha Script1" > nuevo/archivo
+cat nuevo/archivo 
