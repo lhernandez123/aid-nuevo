@@ -1,0 +1,7 @@
+import pywhatkit
+
+try:
+    pywhatkit.sendwhatmsg("+524442075987","Hello word",8,54)
+    print("Mensaje enviado")
+except:
+    print("Error")
